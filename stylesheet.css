@@ -30,11 +30,11 @@ body {
 
 #main_content {
   margin: 0 auto 50px;
-  padding: 25px;
-  max-width: 350px;
+  padding: 0 25px 25px;
+  max-width: 300px;
 
 }
-.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.video-container {margin-bottom:10px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
@@ -45,29 +45,48 @@ body {
 
 h1 {
   font-size: 18px;
-  letter-spacing: -2px;
-  width: 200px;
-  margin: 0 auto;
+  letter-spacing: -1px;
+  width: 250px;
+  margin: 20px auto 40px;
+}
+h1.subheader {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+div#soundcloud_embed {
+  width: 100%;
+}
+div.feature_image img {
+  width: 300px;
+  margin: 0 auto 5px;
 }
 p {
   color: #777777;
   font-size: 12px;
-  margin: 25px 0 0 0;
+  margin: 10px 0 0 0;
 }
 p.email {
   margin: 0 0 0 0;
   font-size: 16px;
   width: 100%;
 }
-a {
+a.logo {
   display: block;
   text-indent: -9999px;
-  max-width: 80px;
-  height: 90px;
-  margin: 50px auto 0;
+  max-width: 160px;
+  height: 70px;
+  margin: 30px auto 0;
   background-image: url("icon.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+div.section {
+  margin-bottom: 80px;
+}
+div#footer {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
