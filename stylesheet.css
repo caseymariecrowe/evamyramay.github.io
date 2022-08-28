@@ -31,7 +31,7 @@ body {
 #main_content {
   margin: 0 auto 50px;
   padding: 0 25px 25px;
-  max-width: 300px;
+  max-width: 350px;
 
 }
 .video-container {margin-bottom:10px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
