@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clickable {
+  cursor: pointer;
+  cursor: hand;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+body {
+  background-color: #ffffff;
+  color: #000;
+  font-family: Times;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+#main_content {
+  margin: 0 auto 50px;
+  padding: 0 25px 25px;
+  max-width: 350px;
+
+}
+.video-container {margin-bottom:10px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#bio {
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+div.social_links a {
+  margin: 5px auto;
+  display: inline-block;
+  text-indent: -9999px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 45px;
+}
+a.apple {
+  background-image: url("images/social_logos/apple.jpg");
+}
+a.spotify {
+  background-image: url("images/social_logos/spotify.jpg");
+}
+a.soundcloud {
+  background-image: url("images/social_logos/soundcloud.jpg");
+}
+a.bandcamp{
+  background-image: url("images/social_logos/bandcamp.jpg");
+}
+
+h1 {
+  font-size: 18px;
+  letter-spacing: -1px;
+  width: 250px;
+  margin: 20px auto 40px;
+}
+h1.subheader {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+h1.song_title {
+  margin-bottom: 5px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 14px;
+  color: #777777;
+  font-weight: normal;
+}
+div#soundcloud_embed {
+  width: 100%;
+}
+div.feature_image img {
+  width: 300px;
+  margin: 0 auto 5px;
+}
+p {
+  color: #777777;
+  font-size: 13px;
+  margin: 10px 0 0 0;
+}
+p.date {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #9a9a9a;
+}
+p.email {
+  margin: 0 0 0 0;
+  font-size: 16px;
+  width: 100%;
+}
+a.logo {
+  display: block;
+  text-indent: -9999px;
+  max-width: 160px;
+  height: 70px;
+  margin: 30px auto 0;
+  background-image: url("icon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+div.section {
+  margin-bottom: 80px;
+}
+div#footer {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+div.song_image img {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Tablet Styles */
+@media all and (min-width: 768px){
+
+}
+
+
+/* Desktop Styles */
+@media all and (min-width: 1090px){
+
+}
