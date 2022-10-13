@@ -43,6 +43,29 @@ body {
   text-align: center;
 }
 
+
+div.social_links a {
+  margin: 5px auto;
+  display: inline-block;
+  text-indent: -9999px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 45px;
+}
+a.apple {
+  background-image: url("images/social_logos/apple.jpg");
+}
+a.spotify {
+  background-image: url("images/social_logos/spotify.jpg");
+}
+a.soundcloud {
+  background-image: url("images/social_logos/soundcloud.jpg");
+}
+a.bandcamp{
+  background-image: url("images/social_logos/bandcamp.jpg");
+}
+
 h1 {
   font-size: 18px;
   letter-spacing: -1px;
@@ -53,6 +76,15 @@ h1.subheader {
   font-size: 14px;
   margin-bottom: 10px;
 }
+h1.song_title {
+  margin-bottom: 5px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 14px;
+  color: #777777;
+  font-weight: normal;
+}
 div#soundcloud_embed {
   width: 100%;
 }
@@ -62,8 +94,13 @@ div.feature_image img {
 }
 p {
   color: #777777;
-  font-size: 12px;
+  font-size: 13px;
   margin: 10px 0 0 0;
+}
+p.date {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #9a9a9a;
 }
 p.email {
   margin: 0 0 0 0;
@@ -88,7 +125,10 @@ div#footer {
   margin: 0 auto;
   text-align: center;
 }
-
+div.song_image img {
+  max-width: 300px;
+  margin: 0 auto;
+}
 
 /* Tablet Styles */
 @media all and (min-width: 768px){
