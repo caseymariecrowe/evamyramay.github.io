@@ -45,13 +45,14 @@ body {
 
 
 div.social_links a {
-  margin: 5px auto;
+  margin: 10px auto;
   display: inline-block;
   text-indent: -9999px;
   background-size: 35px;
   background-repeat: no-repeat;
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
+  opacity: 50%;
 }
 a.apple {
   background-image: url("images/social_logos/apple.jpg");
@@ -78,6 +79,9 @@ h1.subheader {
 }
 h1.song_title {
   margin-bottom: 5px;
+}
+h1.song_title {
+  font-size: 26px;
 }
 h3 {
   margin-top: 0;
@@ -118,7 +122,7 @@ a.logo {
   background-repeat: no-repeat;
 }
 div.section {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 div#footer {
   max-width: 300px;
