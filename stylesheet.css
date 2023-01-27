@@ -9,6 +9,9 @@
 a {
   color: #000;
   text-decoration: underline;
+  display: block;
+  font-size: 18px;
+  margin: 0 0 0px 0;
 }
 a:hover {
   color: #000;
@@ -24,11 +27,18 @@ a.button {
   border-radius: 50px;
   text-decoration: none;
 }
+div.link-list {
+  margin-top: 10px;
+}
+div.link-list a{
+  margin-bottom: 20px;
+}
 body {
   background-color: #ffffff;
   color: #000;
   font-family: Times;
   font-weight: 300;
+  letter-spacing: -1px;
   text-rendering: optimizeLegibility;
   font-smooth: always;
   font-smoothing: antialiased;
@@ -37,22 +47,14 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-
+a.new-link {
+  margin-bottom: 20px;
+}
 #main_content {
   margin: 0 auto 50px;
   padding: 0 25px 25px;
-  max-width: 350px;
-
+  text-align: left;
 }
-.video-container {margin-bottom:10px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
-
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-#bio {
-  margin: 50px auto;
-  text-align: center;
-}
-
 
 div.social_links a {
   margin: 5px auto;
@@ -63,28 +65,17 @@ div.social_links a {
   height: 45px;
   width: 45px;
 }
-a.apple {
-  background-image: url("images/social_logos/apple.jpg");
-}
-a.spotify {
-  background-image: url("images/social_logos/spotify.jpg");
-}
-a.soundcloud {
-  background-image: url("images/social_logos/soundcloud.jpg");
-}
-a.bandcamp{
-  background-image: url("images/social_logos/bandcamp.jpg");
-}
-
 h1 {
-  font-size: 18px;
-  letter-spacing: -1px;
-  width: 250px;
-  margin: 20px auto 40px;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #777777;
 }
 h1.subheader {
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #000000;
 }
 h1.song_title {
   margin-bottom: 5px;
@@ -99,13 +90,13 @@ div#soundcloud_embed {
   width: 100%;
 }
 div.feature_image img {
-  width: 300px;
-  margin: 0 auto 5px;
+  width: 100%;
+  margin: 0 auto 20px;
 }
 p {
   color: #777777;
-  font-size: 13px;
   margin: 10px 0 0 0;
+  font-size: 18px;
 }
 p.date {
   margin-top: 10px;
@@ -122,27 +113,69 @@ a.logo {
   text-indent: -9999px;
   max-width: 160px;
   height: 70px;
-  margin: 30px auto 0;
+  margin: 50px 0 20px 0;
+  background-image: url("icon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+a.footer-logo{
+  display: block;
+  text-indent: -9999px;
+  max-width: 80px;
+  height: 30px;
+  margin: 50px 0 20px 0;
   background-image: url("icon.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 div.section {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+}
+div.release-info {
+  padding-top: 2px;
+  margin-left: 90px;
+  min-height: 90px;
+}
+p.release-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+  letter-spacing: normal;
+  color: #000000;
+}
+a.release-link {
+  font-size: 16px;
+  color: #777777;
+}
+div.release-item {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+img.release-image {
+  width: 75px;
+  float: left;
+}
+div.performance-item {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  max-width: 500px;
+}
+p.performance-date-title {
+  color: #000000;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  letter-spacing: normal;
 }
 div#footer {
   max-width: 300px;
-  margin: 0 auto;
-  text-align: center;
-}
-div.song_image img {
-  max-width: 300px;
-  margin: 0 auto;
 }
 
 /* Tablet Styles */
 @media all and (min-width: 768px){
-
+  #main_content {
+    max-width: 768px;
+  }
 }
 
 
