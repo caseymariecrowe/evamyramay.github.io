@@ -167,6 +167,11 @@ p.performance-date-title {
   margin: 0 0 10px 0;
   letter-spacing: normal;
 }
+
+div.more_image img {
+  width: 100%;
+}
+
 div#footer {
   max-width: 300px;
 }
