@@ -101,6 +101,15 @@ p {
   margin: 10px 0 0 0;
   font-size: 16px;
 }
+.ytembed {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
 p.date {
   margin-top: 10px;
   font-size: 10px;
@@ -113,9 +122,10 @@ p.email {
 }
 
 h1.eva {
-  margin: 50px 0 20px 0;
+  margin: 50px 0 10px 0;
   display: block;
   font-size: 30px;
+  letter-spacing: -2px;
   color: #000;
 }
 a.footer-logo{
@@ -132,12 +142,12 @@ div.section {
   margin-bottom: 50px;
 }
 div.release-info {
-  padding-top: 2px;
+  padding-top: 1px;
   margin-left: 90px;
   min-height: 90px;
 }
 p.release-title {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 5px;
   letter-spacing: normal;
   color: #000000;
