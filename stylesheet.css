@@ -71,6 +71,9 @@ h1 {
   line-height: 28px;
   color: #777777;
 }
+a.inline {
+  display: inline;
+}
 h1.subheader {
   font-size: 22px;
   margin-bottom: 30px;
@@ -108,15 +111,12 @@ p.email {
   font-size: 16px;
   width: 100%;
 }
-a.logo {
-  display: block;
-  text-indent: -9999px;
-  max-width: 160px;
-  height: 70px;
+
+h1.eva {
   margin: 50px 0 20px 0;
-  background-image: url("icon_3d.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  display: block;
+  font-size: 30px;
+  color: #000;
 }
 a.footer-logo{
   display: block;
