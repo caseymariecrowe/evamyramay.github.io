@@ -10,7 +10,7 @@ a {
   color: #000;
   text-decoration: underline;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 0 0px 0;
 }
 a:hover {
@@ -66,9 +66,9 @@ div.social_links a {
   width: 45px;
 }
 h1 {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 21px;
   color: #777777;
 }
 a.inline {
@@ -99,7 +99,7 @@ div.feature_image img {
 p {
   color: #777777;
   margin: 10px 0 0 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 p.date {
   margin-top: 10px;
@@ -137,7 +137,7 @@ div.release-info {
   min-height: 90px;
 }
 p.release-title {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 5px;
   letter-spacing: normal;
   color: #000000;
