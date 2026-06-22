@@ -51,6 +51,7 @@ a.new-link {
   margin-bottom: 20px;
 }
 #main_content {
+  max-width: 500px;
   margin: 0 auto 50px;
   padding: 0 25px 25px;
   text-align: left;
