@@ -138,6 +138,12 @@ h1.eva {
   letter-spacing: -2px;
   color: #000;
 }
+.evamm_logo img {
+  width: 80px;
+}
+a.press {
+  font-size: 13px;
+}
 img.videos-label {
   display: block;
   width: 23%;
